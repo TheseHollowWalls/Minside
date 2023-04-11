@@ -1,5 +1,22 @@
-h1{
-    color: darkorange;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+h1 {
+    font-size: 96px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
 }
-p{font-weight: 800;
-color: rgb(48, 133, 230);}
+.banner {
+    position: relative;
+    text-align: center;
+    width: 958px;
+    border: 4px solid black;
+}
+
+.top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some {
+    position: relative;
+}
