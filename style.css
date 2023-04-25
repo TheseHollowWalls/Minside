@@ -16,7 +16,72 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:20px;
 }
 .some {
     position: relative;
+}
+.some img {
+  padding-left:18px;
+}
+main {
+  display:flex;
+  align-items: center;
+  padding:50px;
+}
+hr {
+  border:2px solid black;
+  width: 250px;
+  transform: rotate(90deg);
+  margin: -50px;
+}
+
+.main-text {
+  width: 500px;
+}
+
+.main-text p {
+  text-align: center;
+  margin-left: -50px;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+ul{
+  list-style-type:none;
+  display: flex;
+  gap: 5px;
+}
+
+li{
+  height:88px;
+  width:291px;
+  font-size:26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-1 {
+  border: 3px solid #000;
+  color: #000;
+}
+
+.menu-2 {
+  border: 3px solid rgb(54, 216, 54);
+  color: rgb(54, 216, 54);
+}
+
+.menu-3 {
+  border: 3px solid #d8ba23;
+  color: #d8ba23;
+}
+
+.menu-4 {
+  border: 3px solid #62e2fe;
+  color: #62e2fe;
 }
